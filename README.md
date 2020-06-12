@@ -1,6 +1,6 @@
 # Music-Genre-Classifier 
 
-Does what the name suggests. Classifies songs into genres: Electronic, Experimental, Folk, Hip-Hop, Instrumental, International, Pop, Rock.
+Does what the name suggests. Classifies songs into genres: Electronic, Experimental, Folk, Hip-Hop, Instrumental, International, Pop, Rock. The features dataset includes an additional 8 genres.
 
 ## Dataset
 fma-small dataset was used for training and testing. The dataset consists of 8,000 tracks of 30s, with 1000 tracks for each of the 8 genres. The dataset can found [here](https://github.com/mdeff/fma).
@@ -12,10 +12,10 @@ numpy``` arrays.
 ## CNN-RNN Parallel
 The [CNN-RNN_parallel](https://github.com/Saif807380/Music-Genre-Classifier/blob/master/CNN-RNN_parallel.ipynb) notebook uses the compressed spectograms to build a a parallel CNN-RNN model in Keras.
 
-## ML Models and F1 Scores on Features dataset
-* Random Forest Classifier - 61
-* KNN - 55
-* SVM - 42
+## ML Models and Accuracies on Features dataset
+* Random Forest Classifier - 61%
+* KNN - 55%
+* SVM - 42%
 
 ## Installation
 You can install the necessary python libraries post creating a virtual environment or globally by
