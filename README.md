@@ -12,6 +12,11 @@ numpy``` arrays.
 ## CNN-RNN Parallel
 The [CNN-RNN_parallel](https://github.com/Saif807380/Music-Genre-Classifier/blob/master/CNN-RNN_parallel.ipynb) notebook uses the compressed spectograms to build a a parallel CNN-RNN model in Keras.
 
+## ML Models and F1 Scores on Features dataset
+* Random Forest Classifier - 61
+* KNN - 55
+* SVM - 42
+
 ## Installation
 You can install the necessary python libraries post creating a virtual environment or globally by
 ```bash
@@ -19,7 +24,7 @@ pip install -r requirements.txt
 ```
 
 ## Model Weights
-The best trained model weights can be found [here](https://drive.google.com/open?id=19Mzl_29lUKtbGQ7jpscIxGJ--UyJztEd).
+The CNN-RNN parallel trained model weights can be found [here](https://drive.google.com/open?id=19Mzl_29lUKtbGQ7jpscIxGJ--UyJztEd).
 
 ## LICENSE
 [MIT](https://choosealicense.com/licenses/mit/)
